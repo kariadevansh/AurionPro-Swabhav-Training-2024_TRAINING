@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.apro</groupId>
+	<artifactId>24_UnitTesting_APP</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<description>unit testing demo</description>
+	<dependencies>
+		<!-- JUnit Platform Launcher -->
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-launcher</artifactId>
+			<version>1.9.1</version> <!-- Ensure this is compatible with your JUnit Jupiter version -->
+		</dependency>
+
+		<!-- JUnit Jupiter Engine -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.9.1</version> <!-- Ensure this is compatible with your JUnit Platform version -->
+		</dependency>
+
+		<!-- Optional: JUnit Platform Console (for command-line testing) -->
+		<dependency>
+			<groupId>org.junit.platform</groupId>
+			<artifactId>junit-platform-console</artifactId>
+			<version>1.9.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>4.11.0</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+</project>                    
